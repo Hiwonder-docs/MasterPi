@@ -1,0 +1,44 @@
+table td{
+    white-space: unset !important;
+}
+
+.rst-content section ol li{
+    margin-bottom: 15px;
+}
+
+table{
+    min-width: 50%;
+}
+
+.common_img{
+    display: block;
+    margin: 0 auto 24px;
+}
+
+div[itemprop="articleBody"] > section > section{
+    padding-bottom: 50px;
+}
+
+.rst-content table.docutils-nobg{
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #e1e4e5;
+    margin-bottom: 24px;
+}
+
+.rst-content table.docutils-nobg th{
+    border-bottom: 1px solid #e1e4e5;
+    border-left: 1px solid #e1e4e5;
+    padding: 8px 16px;
+}
+
+.rst-content table.docutils-nobg td{
+    vertical-align: middle;
+    font-size: 90%;
+    margin: 0;
+    overflow: visible;
+    padding: 8px 16px;
+    border-bottom: 1px solid #e1e4e5;
+    border-left: 1px solid #e1e4e5;
+}
