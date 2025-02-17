@@ -136,7 +136,7 @@ sudo systemctl restart hw_wifi.service
 * Switching to LAN mode cannot be done directly through the system's network settings, as the Wi-Fi has custom configurations. Please follow the instructions in Section 3.2 to switch modes using the network configuration file.
 :::
 
-- #### 1.3.1 Switching via the Mobile App
+**1.3.1 Switching via the Mobile App**
 
 :::{Note}
 For LAN mode, please enable location services on your smartphone.
