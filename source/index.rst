@@ -15,3 +15,4 @@
    docs/9.ai_vision_project_course.md
    docs/10.upper_computer_action_editing_course.md
    docs/11_network_configuration.md
+   docs/12_resources_download.md

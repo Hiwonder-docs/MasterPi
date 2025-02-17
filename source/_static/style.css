@@ -14,9 +14,22 @@ table{
     display: block;
     margin: 0 auto 24px;
 }
+table.highlighttable{
+    margin: 0 auto;
+}
+.half_img{
+    width:500px;
+    display: block;
+    margin: 0 auto 24px;
+}
 
-div[itemprop="articleBody"] > section > section{
-    padding-bottom: 50px;
+table {
+    min-width: 50%;
+    margin: 0 auto 24px;
+}
+
+.rst-content tt.literal, .rst-content code.literal, .highlight {
+    background: #f0f0f0;
 }
 
 .rst-content table.docutils-nobg{
@@ -41,4 +54,19 @@ div[itemprop="articleBody"] > section > section{
     padding: 8px 16px;
     border-bottom: 1px solid #e1e4e5;
     border-left: 1px solid #e1e4e5;
+}
+
+@media screen and (min-width: 1400px) {
+    .wy-grid-for-nav .wy-nav-side, .wy-grid-for-nav .wy-side-nav-search, .wy-grid-for-nav .wy-menu {
+        width: 320px;
+    }
+    .wy-grid-for-nav .wy-side-scroll{
+        width: 340px;
+    }
+    .wy-grid-for-nav .wy-nav-content-wrap{
+        margin-left: 320px;
+    }
+    .wy-grid-for-nav .wy-nav-content{
+        max-width: 1080px;
+    }
 }
