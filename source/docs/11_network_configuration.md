@@ -1,10 +1,8 @@
-# 8. Raspberry Pi Series Robot Network Configuration Instruction
+# 7. Raspberry Pi Series Robot Network Configuration Instruction
 
-## 1. Network Configuration Overview
+## 7.1 Network Configuration Overview
 
 This tutorial uses the MasterPi Pi5 version as an example, and it applies to other Pi5 models in this series as well.
-
-### 1.1 Network Configuration Overview
 
 The robot's network can be configured in two modes:
 
@@ -14,9 +12,9 @@ The robot's network can be configured in two modes:
 
 By default, the robot operates in AP (direct connection) mode. The features and functions of the robot remain the same whether in AP mode or STA (local area network) mode.
 
-### 1.2 AP Direct Connection Mode
+## 7.2 AP Direct Connection Mode
 
-**1.2.1 Mode Switching through Phone**
+**7.2.1 Mode Switching through Phone**
 
 Using **the Android system** as an example, these instructions also apply to iOS.
 
@@ -29,7 +27,7 @@ Using **the Android system** as an example, these instructions also apply to iOS
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image2.png" style="width:700px"/>
 
 :::{Note}
-If you prefer to connect in LAN mode, refer to [1.3 Connecting in LAN Mode (optional)](#anchor_1_3).
+If you prefer to connect in LAN mode, refer to [7.3 Connecting in LAN Mode (optional)](#anchor_1_3).
 :::
 
 (3) Tap **"Connect to Device Hotspot"**. This will take you to your phone's settings to connect to the hotspot created by the robot.
@@ -64,7 +62,7 @@ For details on each mode, refer to the documentation provided earlier.
 
 <p id="anchor_1_2_2"></p>
 
-**1.2.2 Switching via Network Configuration File**
+**7.2.2 Switching via Network Configuration File**
 
 (1) Power on the robot and connect it to the remote control software, VNC.
 
@@ -128,7 +126,7 @@ sudo systemctl restart hw_wifi.service
 
 <p id="anchor_1_3"></p>
 
-### 1.3 Connecting in LAN Mode (optional)
+## 7.3 Connecting in LAN Mode (optional)
 
 :::{Note}
 * To configure the LAN mode using a smartphone, you must first enable the phone's location services.
@@ -136,7 +134,7 @@ sudo systemctl restart hw_wifi.service
 * Switching to LAN mode cannot be done directly through the system's network settings, as the Wi-Fi has custom configurations. Please follow the instructions in Section 3.2 to switch modes using the network configuration file.
 :::
 
-**1.3.1 Switching via the Mobile App**
+7.3.1 Switching via the Mobile App
 
 :::{Note}
 For LAN mode, please enable location services on your smartphone.
@@ -182,7 +180,7 @@ For LAN mode, please enable location services on your smartphone.
 
 (11) To switch back to direct connection mode from LAN mode, press and hold the KEY1 button on the expansion board until the blue LED flashes, indicating that the switch is complete.
 
-**1.3.2 Switching via Network Configuration File**
+**7.3.2 Switching via Network Configuration File**
 
 (1) Power on the robot and connect it to the remote control software, NoMachine.
 

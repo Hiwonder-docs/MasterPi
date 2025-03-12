@@ -1,3 +1,46 @@
+section p {
+    margin: 0 0 18px;
+}
+.caption{
+    display:none;
+}
+.wy-nav-side .wy-menu-vertical header, .wy-menu-vertical p.caption{
+    color: #f98800;
+    text-transform: unset;
+}
+
+.wy-nav-side .wy-side-nav-search input[type=text]{
+     border-color: #f98800;
+}
+.wy-breadcrumbs-aside a{
+    color: #f98800;
+}
+section .rst-content .admonition{
+    background: #e3e3e3;
+}
+section .rst-content .note .admonition-title{
+    color: #f98800;
+    background: #343131;
+}
+
+.step{
+    background: #e3e3e3;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.wy-side-scroll .wy-menu-vertical .toctree-l1.current .h-current.toctree-l2>ul{
+    display:block;
+}
+.wy-menu-vertical li.h-current>a button.toctree-expand:before,{
+    content: "";
+}
+
+.wy-menu-vertical li.toctree-l2.h-current li.toctree-l3>a {
+    padding: .4045em 1.618em .4045em 4.045em;
+}
+
 table td{
     white-space: unset !important;
 }
