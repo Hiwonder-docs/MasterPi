@@ -39,7 +39,7 @@ If you prefer to connect in LAN mode, refer to [7.3 Connecting in LAN Mode (opti
 <img class="common_img" src="../_static/media/11.network_configuration/section_1/image4.png" style="width:350px" />
 
 :::{Note}
-for iOS: Wait until the Wi-Fi icon <img src="../_static/media/11.network_configuration/section_1/image5.png" style="width:40px" /> appears in your phone's status bar before returning to the app. If you don't see the device listed, you can refresh by tapping the refresh icon<img src="../_static/media/11.network_configuration/section_1/image6.png" style="width:50px" />in the upper-right corner of the app.
+for iOS: Wait until the Wi-Fi icon <img src="../_static/media/11.network_configuration/section_1/image5.png" style="width:40px" /> appears in your phone's status bar before returning to the app. If you don't see the device listed, you can refresh by tapping the refresh icon <img src="../_static/media/11.network_configuration/section_1/image6.png" style="width:50px" /> in the upper-right corner of the app.
 :::
 
 (5) Return to the app, and tap the robot icon to enter the mode selection screen.
@@ -186,13 +186,13 @@ For LAN mode, please enable location services on your smartphone.
 
 (2) Click the terminal icon <img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:50px" />at the top of the system screen to open the command line terminal.
 
-(3) Enter the command **"cd hiwonder-toolbox"** and press Enter to access the configuration file directory.
+(3) Enter the command and press Enter to access the configuration file directory.
 
 ```bash
 cd hiwonder-toolbox
 ```
 
-(4) Enter the command "vim wifi_conf.py" and press Enter to open the configuration file
+(4) Enter the command and press Enter to open the configuration file
 
 ```bash
 vim hiwonder_wifi_conf.py
