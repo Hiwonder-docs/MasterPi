@@ -66,7 +66,7 @@ For details on each mode, refer to the documentation provided earlier.
 
 (1) Power on the robot and connect it to the remote control software, VNC.
 
-(2) Double-click the terminal icon<img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:40px" /> on the desktop to open the command line terminal.
+(2) Double-click the terminal icon <img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:40px" /> on the desktop to open the command line terminal.
 
 (3) Enter the command and press Enter to navigate to the configuration file directory.
 
@@ -184,7 +184,7 @@ For LAN mode, please enable location services on your smartphone.
 
 (1) Power on the robot and connect it to the remote control software, NoMachine.
 
-(2) Click the terminal icon <img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:50px" />at the top of the system screen to open the command line terminal.
+(2) Click the terminal icon <img src="../_static/media/11.network_configuration/section_1/image10.png" style="width:50px" /> at the top of the system screen to open the command line terminal.
 
 (3) Enter the command and press Enter to access the configuration file directory.
 

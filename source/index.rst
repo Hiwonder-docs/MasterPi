@@ -13,7 +13,6 @@ MasterPi
 
    docs/1.getting_ready.md
    docs/2.getting_started_with_play.md
-   docs/general_basic_courses.md
    docs/6.motion_control_course.md
    docs/7.basic_course_kinematics.md
    docs/9.ai_vision_project_course.md
