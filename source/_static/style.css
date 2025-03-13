@@ -31,12 +31,17 @@ section .rst-content .note .admonition-title{
 }
 
 .wy-side-scroll .wy-menu-vertical .toctree-l1.current .h-current.toctree-l2>ul{
-    display:block;
+    display:block !important;
 }
-.wy-menu-vertical li.h-current>a button.toctree-expand:before,{
-    content: "";
+.wy-side-scroll .wy-menu-vertical .toctree-l1.current .current.toctree-l2>ul{
+    display:none;
 }
-
+.wy-menu-vertical .toctree-l2.h-current>a button.toctree-expand:before{
+    content: "\f147" !important;
+}
+.wy-menu-vertical .toctree-l2.current>a button.toctree-expand:before{
+    content: "\f196";
+}
 .wy-menu-vertical li.toctree-l2.h-current li.toctree-l3>a {
     padding: .4045em 1.618em .4045em 4.045em;
 }
