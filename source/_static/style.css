@@ -8,7 +8,9 @@ section p {
     color: #f98800;
     text-transform: unset;
 }
-
+.wy-nav-side .wy-menu-vertical li.toctree-l2 button.toctree-expand{
+    pointer-events:none;
+}
 .wy-nav-side .wy-side-nav-search input[type=text]{
      border-color: #f98800;
 }
