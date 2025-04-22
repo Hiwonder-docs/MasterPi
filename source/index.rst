@@ -19,3 +19,4 @@ MasterPi
    docs/10.upper_computer_action_editing_course.md
    docs/11_network_configuration.md
    docs/12_resources_download.md
+   Download <https://drive.google.com/drive/folders/19wOOF4T_N37y_SSklHbo7DnL76_P_NWb?usp=sharing>
